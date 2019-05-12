@@ -1,0 +1,14 @@
+html{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background-size: cover;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 1rem;
+}

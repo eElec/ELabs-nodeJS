@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Meme</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/login.css">
+	<!-- <script src="main.js"></script> -->
+	
+
+</head>
+
+<body>
+	<div class="LoginMain">
+
+		<div class="UserImg">
+			<img src="images/b_user.png" alt="User" width="40%" height="40%">
+		</div>
+		
+		<form action="/register" method="POST" class="LoginForm">
+			<input name="name" type="text" placeholder="NAME" class="tinput iptext" autocomplete=off>
+			<input name="email" type="text" placeholder="EMAIL" class="tinput iptext" oninput="ValidateEmail()" autocomplete=off>
+			<div class="alerts">Invalid Mail ID</div>
+			<input name="password" type="password" placeholder="PASSWORD" class="tinput iptext" oninput="ValidatePass()" autocomplete=off>
+			<div class="alerts">Invalid Password</div>
+			<button class="tinput ipbutton" disabled>SEND</button>
+		</form>
+
+		<a href="./login" id="register">Click Here To Login.</a></div>
+
+	</div>
+
+	<script src="./js/login.js"></script>
+</body>
+</html>

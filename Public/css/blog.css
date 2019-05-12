@@ -1,0 +1,52 @@
+body{
+	background: rgb(248, 248, 248);
+}
+
+.navbar-nav
+{
+	margin-left: auto;
+	margin-right: 0px;
+}
+
+.content-main
+{
+	background: rgb(255, 255, 255);
+	display: block;
+	margin:10px auto;
+	width: 690px;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.content-title
+{
+	text-align: center;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+.content-author
+{
+	color: rgb(155, 155, 155);
+	text-align: center;
+	font-style: oblique;
+}
+.content-content
+{
+	text-align: justify;
+	padding: 15px 30px;
+}
+.content-edit
+{
+	display: block; 
+	margin: 3px 3px 3px auto; 
+	height: 50px;
+}
+.content-edit img:hover, .content-edit input:hover
+{
+	filter: drop-shadow(1px 1px 1px rgb(110, 161, 255));	
+}
+
+.form-control
+{
+	margin: 5px;
+}
