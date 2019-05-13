@@ -195,11 +195,12 @@ app.post('/editPost', (req,res)=>{
 });
 
 //User Page
-app.get('/user/:id'), (req, res)=>{
+app.get('/user/:id/', (req, res)=>{
 	res.redirect('/');
-}
+})
 
- app.listen(8080, ()=>{
+var PORT = process.env.PORT || 3000
+ app.listen(PORT, ()=>{
 	 console.log("Listening on Port 8080.");
  });
 
